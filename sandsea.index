@@ -2,7 +2,7 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="sample.index" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/index.xml" />
+      <file name="sandsea.index" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/sandsea.index" />
     </update>
   </info>
   <files>
