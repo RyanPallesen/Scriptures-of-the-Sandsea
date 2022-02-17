@@ -2,11 +2,16 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="sample.index" url="http://hosting.com/files/sample.index" />
+      <file name="sample.index" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/index.xml" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
-    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+    <file name="archetype-strongarm-rogue.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/archetype-strongarm-rogue.xml" />
+    <file name="bloodline-magicrafter.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/bloodline-magicrafter.xml" />
+    <file name="items-weapons.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/items-weapons.xml" />
+    <file name="items-wondrous.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/items-wondrous.xml" />
+    <file name="metamagic.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/metamagic.xml" />
+    <file name="oath-paladin-chaos.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/oath-paladin-chaos.xml" />
+    <file name="spells.xml" url="https://github.com/RyanPallesen/Scriptures-of-the-Sandsea/blob/main/spells.xml" />
   </files>
 </index>
