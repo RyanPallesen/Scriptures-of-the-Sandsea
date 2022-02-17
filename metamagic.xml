@@ -1,0 +1,44 @@
+<elements>
+  <element name="Embiggened Spell" type="Class Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_CLASS_FEATURE_SORCERER_METAMAGIC_EMBIGGENED_SPELL" requirements="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
+		<supports>Metamagic</supports>
+    <prerequisite>Distant Spell</prerequisite>
+    <requirements>ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL</requirements>
+		<description>
+			<p>When you cast a spell you can spend a number of sorcery points equal to the spell’s level to double it's size in all directions.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell you can spend a number of sorcery points equal to the spell’s level to double it's size in all directions.</description>
+		</sheet>
+	</element>
+  <element name="Chaotic Spell" type="Class Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_CLASS_FEATURE_SORCERER_METAMAGIC_CHAOTIC_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>When you cast a spell you can spend a number of sorcery points equal to or lesser than the spell’s level to imbue it with chaos. For each sorcery point, you may cause a creature affected by the spell to roll on the wild magic table.</p>
+    </description>
+    <sheet>
+      <description>When you cast a spell you can spend a number of sorcery points equal to or lesser than the spell’s level to imbue it with chaos. For each sorcery point, you may cause a creature affected by the spell to roll on the wild magic table.</description>
+    </sheet>
+  </element>
+  <element name="Chained Spell" type="Class Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_CLASS_FEATURE_SORCERER_METAMAGIC_CHAINED_SPELL">
+    <supports>Metamagic</supports>
+    <prerequisite>Twinned Spell</prerequisite>
+    <requirements>ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL</requirements>
+    <description>
+      <p>When you cast a spell you can spend a number of sorcery points equal to the spell's level to imbue it with another spell. For each sorcery point, you may cause a creature affected by the spell to also be affected by another spell of yours that has a level lower than the initial spell. The target automatically fails any saving throws, and any attack rolls automatically succeed.</p>
+    </description>
+    <sheet>
+      <description>When you cast a spell you can spend a number of sorcery points equal to the spell's level to imbue it with another spell. For each sorcery point, you may cause a creature affected by the spell to also be affected by another spell of yours that has a level lower than the initial spell. The target automatically fails any saving throws, and any attack rolls automatically succeed.</description>
+    </sheet>
+  </element>
+  <element name="Healing Spell" type="Class Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_CLASS_FEATURE_SORCERER_METAMAGIC_HEALING_SPELL" requirements="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL">
+    <supports>Metamagic</supports>
+    <prerequisite>Transmuted Spell</prerequisite>
+    <requirements>ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL</requirements>
+    <description>
+      <p>When you cast a spell you can spend 8 sorcery points to reverse it's intention, causing it to heal creatures instead of damage them.</p>
+    </description>
+    <sheet>
+      <description>When you cast a spell you can spend 8 sorcery points to transmute it, causing it to heal creatures instead of damage them.</description>
+    </sheet>
+  </element>
+</elements>

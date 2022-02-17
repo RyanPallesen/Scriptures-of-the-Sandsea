@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Oath of Chaos" type="Archetype" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_OATH_OF_CHAOS">
+    <supports>Sacred Oath</supports>
+    <description>
+      <p>The Oath of Chaos is sworn to the ideals of freedom, to blaze a trail, make your own destiny and carve out your place in the world. The paladins who swear this oath dedicate themselves to creating and taking opportunities. These paladins are the trailblazers of the chaotic tides of innovation. Paladins who swear this oath are rarely members of an order of knighthood in service to a nation or a sovereign, and tend to avoid anything that ties them down.</p>
+      <h5>TENETS OF CHAOS</h5>
+      <p>The tenets of the Oath of Chaos are often set by the individual who takes the oath, but usually involve the following:</p>
+      <p class="indent">
+        <b>
+          <i>Choice.</i>
+        </b> The ability to choose one's destiny is paramount, and must be respected.
+      </p>
+      <p class="indent">
+        <b>
+          <i>Freedom.</i>
+        </b> You must not spend your life at the whims of others, and act for yourself.
+      </p>
+      <p class="indent">
+        <b>
+          <i>Responsibility.</i>
+        </b> You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.
+      </p>
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_OATH_SPELLS" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHANNEL_DIVINITY" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHAOTIC_SMITE" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_FOCUSED_CHAOS" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_UNYIELDING_SPIRIT" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_EXALTED_CHAMPION" />
+    </description>
+    <sheet display="false">
+      <description>The Oath of Chaos is sworn to the ideals of freedom, to blaze a trail, make your own destiny and carve out your place in the world.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_OATH_SPELLS" level="3"/>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHANNEL_DIVINITY" level="3"/>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHAOTIC_SMITE" level="3"/>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_FOCUSED_CHAOS" level="7"/>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_UNYIELDING_SPIRIT" level="15"/>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_EXALTED_CHAMPION" level="20"/>
+    </rules>
+  </element>
+
+  <element name="Oath Spells" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_OATH_SPELLS">
+    <description>
+      <p>You gain oath spells at the paladin levels listed.</p>
+      <p class="indent"></p>
+      <h5>Oath of Chaos Spells</h5>
+      <table>
+        <thead>
+          <tr>
+            <td>Paladin Level</td>
+            <td>Spells</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>3rd</td>
+          <td>
+            <em>command, compelled duel</em>
+          </td>
+        </tr>
+        <tr>
+          <td>5th</td>
+          <td>
+            <em>warding bond, zone of truth</em>
+          </td>
+        </tr>
+        <tr>
+          <td>9th</td>
+          <td>
+            <em>aura of vitality, spirit guardians</em>
+          </td>
+        </tr>
+        <tr>
+          <td>13th</td>
+          <td>
+            <em>banishment, guardian of faith</em>
+          </td>
+        </tr>
+        <tr>
+          <td>17th</td>
+          <td>
+            <em>circle of power, geas</em>
+          </td>
+        </tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>You gain oath spells at the paladin levels listed.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_COMPELLED_DUEL" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WARDING_BOND" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_VITALITY" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CIRCLE_OF_POWER" level="17" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GEAS" level="17" spellcasting="Paladin" prepared="true" />
+    </rules>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHANNEL_DIVINITY">
+    <description>
+      <p>When you take this oath at 3rd level, you gain the following Channel Divinity options.</p>
+      <p class="indent">
+        <b>
+          <i>Chaos Outburst</i>
+        </b> As a bonus action, you tangle the weave of magic and cause a chaotic outburst. Each creature of your choice that you can see within 30 feet of you must make a Charisma saving throw. On a failure, that creature must immediately roll on the wild magic table. if the creature willingly fails the save, they may reroll up to once and choose either result
+      </p>
+    </description>
+    <sheet display="false">
+      <description>Chaos Outburst.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHANNEL_DIVINITY_CHAOS_OUTBURST" />
+      <grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHAOTIC_SMITE" />
+    </rules>
+  </element>
+  <element name="Channel Divinity: Chaos Outburst" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHANNEL_DIVINITY_CHAOS_OUTBURST">
+    <description>
+      <p>As a bonus action, you tangle the weave of magic and cause a chaotic outburst. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failure, that creature must immediately roll on the wild magic table. if the creature willingly fails the save, they may reroll up to once and choose either result</p>
+    </description>
+    <sheet alt="Chaos Outburst" action="Bonus Action" usage="Channel Divinity">
+      <description>Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failure, that creature must immediately roll on the wild magic table. if the creature willingly fails the save, they may reroll up to once and choose either result.</description>
+    </sheet>
+  </element>
+
+  <element name="Chaotic Smite" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_CHAOTIC_SMITE">
+    <description>
+      <p>When you take this oath at 3rd level, the following changes occur to your divine smite:</p>
+      <p class="indent">
+        <b>
+          <i>Chaotic Smite</i>
+        </b> Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.
+        <table>
+          <thead>
+            <tr>
+              <td>d8</td>
+              <td>Damage Type</td>
+            </tr>
+          </thead>
+          <tr>
+            <td>1</td>
+            <td>Acid</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Cold</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fire</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Force</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Lightning</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Poison</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Psychic</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Thunder</td>
+          </tr>
+        </table>
+        <p class="indent">If you roll the same number on all d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each activation of this feature.</p>
+      </p>
+    </description>
+    <sheet action="Reaction">
+      <description>
+        When you use divine smite, select a d8, it deals that damage type. If all d8s are the same, the attack must be made another time on a creature within range that you have not hit with this smite.
+         1 - Acid,
+         2 - Cold,
+         3 - Fire,
+         4 - Force,
+         5 - Lightning,
+         6 - Poison,
+         7 - Psychic,
+         8 - Thunder.
+      </description>
+    </sheet>
+  </element>
+  
+  
+  
+  <element name="Focused Chaos" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_FOCUSED_CHAOS">
+    <description>
+      <p>Starting at 7th level, after you use divine smite, you can magically invoke the forces of chaos, immediately rolling on the wild magic table a number of times equal to the spell slot used. You can determine if this affects you or the target of your smite. If this would deal damage, it deals the same damage as your smite. </p>
+      <p class="indent"></p>
+    </description>
+    <sheet>
+      <description>after you use divine smite, you can magically invoke the forces of chaos, immediately rolling on the wild magic table a number of times equal to the spell slot used. You can determine if this affects you or the target of your smite. If this would deal damage, it deals the same damage as your smite.</description>
+    </sheet>
+  </element>
+  <element name="Unyielding Spirit" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_UNYIELDING_SPIRIT">
+    <description>
+      <p>Starting at 15th level, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors. Additionally, all Persuasion, Intimidation, Deception, and Insight checks against you have disadvantage.</p>
+    </description>
+    <sheet>
+      <description>You are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors. Additionally, all Persuasion, Intimidation, Deception, and Insight checks against you have disadvantage.</description>
+    </sheet>
+  </element>
+  <element name="Exalted Champion" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_FEATURE_OATH_OF_CHAOS_EXALTED_CHAMPION">
+    <description>
+      <p>At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:</p>
+      <ul>
+        <li>At the start of your turn, roll 4d8. Choose two of them, You gain resistance to two damage types that correspond to them on the Chaotic Smite table, as do your allies within 30 feet of you.</li>
+        <li>Your allies have advantage on death saving throws while within 30 feet of you.</li>
+        <li>Whenever a creature within 30 feet of you would roll on the wild magic table, you roll for them twice as many times as they would, choosing one option. These rolls do not trigger this effect.</li>
+      </ul>
+      <p>This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet action="Action" usage="1/Long Rest">
+      <description>
+        Gain the following benefits for 1 hour:
+        At the start of your turn, roll 4d8. Choose two of them, You gain resistance to two damage types that correspond to them on the Chaotic Smite table, as do your allies within 30 feet of you.
+        Your allies have advantage on death saving throws while within 30 feet of you.
+        Whenever a creature within 30 feet of you would roll on the wild magic table, you roll for them twice as many times as they would, choosing one option. These rolls do not trigger this effect.
+      </description>
+    </sheet>
+  </element>
+</elements>

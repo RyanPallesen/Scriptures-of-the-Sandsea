@@ -1,0 +1,79 @@
+<elements>
+  <element name="Magicraft" type="Archetype" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_ARCHETYPE_WILD_MAGIC">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.</p>
+			<p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>
+			<div element="IS_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT" />
+			<div element="ID_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT_EXPERTISE" />
+			<div element="ID_RYANP_SOTS_ARCHETYPE_FEATURE_METAMAGIC_EXPERT" />
+			<div element="ID_RYANP_SOTS_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" />
+			<div element="ID_RYANP_SOTS_ARCHETYPE_FEATURE_EXPERT_SPELLCRAFT" />
+			<h5 class="caption">Magicraft SURGE</h5>
+		</description>
+		<sheet display="false">
+			<description>Your innate magic comes from the order of creation that rebels against chaos.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="IS_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT" level="1" />
+			<grant type="Archetype Feature" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT_EXPERTISE" level="1" />
+			<grant type="Archetype Feature" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_METAMAGIC_EXPERT" level="6" />
+			<grant type="Archetype Feature" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" level="14" />
+			<grant type="Archetype Feature" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_EXPERT_SPELLCRAFT" level="18" />
+		</rules>
+	</element>
+	<element name="Magicraft" type="Archetype Feature" source="Scriptures of the Sandsea" id="IS_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT">
+		<description>
+			<p>Starting when you choose this origin at 1st level, You become able to better manipulate magic. You learn one metamagic, whenever you use this metamagic it costs half the sorcery points (rounded up).</p>
+		</description>
+		<sheet>
+			<description>You may use the following metamagic abilities with half the cost (rounded up) in sorcery points.</description>
+		</sheet>
+    <rules>
+      <select type="Class Feature" name="Signature Metamagic" supports="Metamagic" number="1" level="1"/>
+      <select type="Class Feature" name="Signature Metamagic" supports="Metamagic" number="1" level="6"/>
+      <select type="Class Feature" name="Signature Metamagic" supports="Metamagic" number="1" level="14"/>
+    </rules>
+    
+	</element>
+	<element name="Magicraft Expertise" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_MAGICRAFT_EXPERTISE">
+		<supports>Magicraft Expertise</supports>
+		<description>
+      <p>you gain sorcery points equal to your arcana bonus and proficiency</p>
+		</description>
+    <sheet>
+      <description>you gain sorcery points equal to your arcana bonus, and gain expertise in arcana</description>
+    </sheet>
+    <rules>
+      <grant type="Expertise" id="ID_EXPERTISE_SKILL_ARCANA" />
+      <stat name="sorcery-points" value="arcana"/>
+    </rules>
+	</element>
+	<element name="Metamagic Expert" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_METAMAGIC_EXPERT">
+		<supports>Magicraft</supports>
+		<description>
+			<p>Starting at 6th level, you have the ability to twist spells using your Magicraft. Whenever you use sorcery points to add metamagic to a spell, you can use another metamagic option that would use less sorcery points than the first for free.</p>
+		</description>
+		<sheet>
+			<description>Whenever you use sorcery points to add metamagic to a spell, you can use another metamagic option that would use less sorcery points than the first for free.</description>
+		</sheet>
+	</element>
+	<element name="Controlled Chaos" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_CONTROLLED_CHAOS">
+		<supports>Magicraft</supports>
+		<description>
+			<p>At 14th level, you gain a modicum of control over the surges of your Magicraft. You may use two metamagic options per spell. Each metamagic option affects all instances of the spell. You may not use the same option on the same casting twice</p>
+		</description>
+		<sheet>
+			<description> You may use two metamagic options per spell.</description>
+		</sheet>
+	</element>
+	<element name="Expert Spellcraft" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_ARCHETYPE_FEATURE_EXPERT_SPELLCRAFT">
+		<supports>Magicraft</supports>
+		<description>
+			<p>Beginning at 18th level, You may ignore the requirements for metamagic options, such as targetting a single creature, or not already affecting the spell.</p>
+		</description>
+		<sheet>
+			<description>You may ignore the requirements for metamagic options, such as targetting a single creature.</description>
+		</sheet>
+	</element>
+</elements>

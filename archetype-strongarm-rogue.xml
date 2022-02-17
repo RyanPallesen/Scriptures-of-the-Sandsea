@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Strongarm" type="Archetype" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPE_Strongarm">
+		<supports>Roguish Archetype</supports>
+		<description>
+			<p>You focus your training on the art of applying strength in the perfect way and the perfect place, cutting an intimidating figure who knows how to kill, and has no qualms about doing it in the daylight.</p>
+			<p class="indent">A Strongarm excels in intimidation and destruction.</p>
+			<div element="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_APPLIED_STRENGTH" />
+			<div element="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_READIED_STANCE" />
+      <div element="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_INTIMIDATION_TACTICS" />
+			<div element="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_POWERFUL_MANEUVER" />
+			<div element="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_MASTER_DUELIST" />
+		</description>
+		<sheet display="false">
+			<description>You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_APPLIED_STRENGTH" level="3"/>
+			<grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_READIED_STANCE" level="3"/>
+			<grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_INTIMIDATION_TACTICS" level="9"/>
+			<grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_POWERFUL_MANEUVER" level="13"/>
+			<grant type="Archetype Feature" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_MASTER_DUELIST" level="17"/>
+		</rules>
+	</element>
+	<element name="Applied Strength" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_APPLIED_STRENGTH">
+		<description>
+			<p>When you choose this archetype at 3rd level, you learn how to land a perfected strike with strength rather than dexterity. You may gain the benefits of sneak attack on any attack, including special attacks such as grapple or shove, you make that does not use a heavy weapon.</p>|
+      <p>Additionally, You have advantage against any creature you have grappled.</p>
+		</description>
+		<sheet>
+			<description> You may gain the benefits of sneak attack on any attack you make that does not use a heavy weapon.</description>
+		</sheet>
+	</element>
+	<element name="Readied Stance" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_READIED_STANCE">
+		<description>
+			<p>Starting at 3rd level, your unmistakable power propels you into battle. You can add your Strength modifier to your initiative rolls.</p>
+			</description>
+		<sheet>
+			<description>You can add your Strength modifier to your initiative rolls.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="strength:modifier" />
+		</rules>
+	</element>
+	<element name="Intimidation Tactics" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_INTIMIDATION_TACTICS">
+		<description>
+			<p>At 9th level, your strength becomes extraordinarily terrifying. As an action, you can make a Charisma (Intimidation) check contested by a creature's Wisdom (Insight) check. The creature must be able to see or hear you.</p>
+			<p class="indent">If you succeed on the check, the creature has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute.</p>
+      <p>Additionally, whenever you or an ally within 60 feet of you makes an Intimidation check, you may add your strength to the check.</p>
+    </description>
+		<sheet>
+			<description>As an action, you can make an Intimidation check contested by a creature's Insight check. If you succeed on the check, the creature has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute. Additionally, whenever you or an ally within 60 feet of you makes an Intimidation check, you may add your strength to the check.</description>
+		</sheet>
+	</element>
+	<element name="Powerful Maneuver" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_POWERFUL_MANEUVER">
+		<description>
+			<p>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Charisma (Intimidation) check, Grapple, Shove or Attack you make during the same turn.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can gain advantage on the next Intimidation check, Grapple, Shove or Attack you make during the same turn.</description>
+		</sheet>
+	</element>
+	<element name="Master Duelist" type="Archetype Feature" source="Scriptures of the Sandsea" id="ID_RYANP_SANDSEA_ARCHETYPEFEATURE_MASTER_DUELIST">
+		<description>
+			<p>Beginning at 17th level, your mastery of yourself allows you to strike with deadly speed. If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack as a bonus action if you attacked this turn, This attack can benefit from sneak attack.</description>
+		</sheet>
+	</element>
+</elements>

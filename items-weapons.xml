@@ -1,0 +1,131 @@
+﻿<elements>
+    <element name="Mithral Weapon" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_MITHRAL">
+		<description>
+			<p>This weapon is extraordinarily light. Heavy weapons become non-heavy, weapons that are neither heavy nor light become light, weapons that are light gain Thrown (20/60) and Thrown weapons double their range.</p>
+		    <p class="indent"> This weapon is not considered magical, but is considered silvered.</p>
+</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Mithral {{parent}}</set>
+		</setters>
+	</element>
+<element name="Weighted Weapon Tier 1" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_WEIGHTED_1">
+		<description>
+			<p>This weapon is strangely weighted. It has -2 VS AC, but +5 to all damage rolls</p>
+        <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Weighted {{parent}}</set>
+		</setters>
+	</element>
+  <element name="Weighted Weapon Tier 2" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_WEIGHTED_2">
+		<description>
+			<p>This weapon is strangely weighted. It has -5 VS AC, but +10 to all damage rolls</p>
+        <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Weighted {{parent}}</set>
+		</setters>
+	</element>
+  <element name="Weighted Weapon Tier 3" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_WEIGHTED_3">
+		<description>
+			<p>This weapon is strangely weighted. It has -10 VS AC, but +25 to all damage rolls</p>
+        <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">5000</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Weighted {{parent}}</set>
+		</setters>
+	</element>
+<element name="Masterwork Weapon Tier 1" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_MASTERWORK_1">
+		<description>
+			<p>This weapon is a very well made. It's damage dice is increased by an order of 1. I.E. 1d8 => 1d10.</p>
+    <p class="indent"> If the weapon's damage dice is a d12, add another dice and change the damage dice to d8. I.E. 1d12 => 2d8, 2d12 => 3d8</p>
+    <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Masterwork {{parent}}</set>
+		</setters>
+	</element>
+<element name="Masterwork Weapon Tier 2" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_MASTERWORK_2">
+		<description>
+			<p>This weapon is a exceedingly well made. It's damage dice is increased by an order of 1 twice. I.E. 1d8 => 1d10 => 1d12.</p>
+    <p class="indent"> If the weapon's damage dice is a d12, add another dice and change the damage dice to d8. I.E. 1d12 => 2d8 => 2d10</p>
+    <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Masterwork {{parent}}</set>
+		</setters>
+	</element>
+<element name="Masterwork Weapon Tier 3" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_WEAPON_MASTERWORK_3">
+		<description>
+			<p>This weapon is a masterwork. It's damage dice is increased by an order of 1 three times. I.E. 1d6 => 1d8 => 1d10 => 1d12.</p>
+    <p class="indent"> If the weapon's damage dice is a d12, add another dice and change the damage dice to d8. I.E. 1d12 => 2d8 => 2d10 => 2d12</p>
+    <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">5000</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Masterwork {{parent}}</set>
+		</setters>
+	</element>
+  <element name="Adamantine Weapon" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_ADAMANTINE">
+		<description>
+			<p>This weapon is always granted a critical hit against objects.</p>
+        <p class="indent"> This weapon is not considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Adamantine {{parent}}</set>
+		</setters>
+	</element>
+<element name="Siege Weapon" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_SIEGE">
+		<description>
+			<p>This weapon is always deals maximum damage against objects.</p>
+        <p class="indent"> This weapon is considered magical.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Siege {{parent}}</set>
+		</setters>
+	</element>
+</elements>

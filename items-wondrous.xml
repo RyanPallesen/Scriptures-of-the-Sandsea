@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Marvelous Marble (Long Rest)" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_MARBLE_LONGREST">
+		<description>
+			<p>This marble glints with a slight pink hue. You may focus this item on any creature within 60 feet of you, the Marvelous Marble then shatters, granting it's effect</p>
+      <p class="indent">This Marvelous Marble grants the benefits of a long rest to any one creature, and the creature ages by one year immediately.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="pp">50</set>
+			<set name="weight" lb="15">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+  <element name="Marvelous Marble (Short Rest)" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_MARBLE_SHORTREST">
+    <description>
+      <p>This marble glints with a slight pink hue. You may focus this item on any creature within 60 feet of you, the Marvelous Marble then shatters, granting it's effect</p>
+      <p class="indent">This Marvelous Marble grants the benefits of a short rest to any one creature, and the creature ages by one year immediately.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="pp">10</set>
+      <set name="weight" lb="15">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+  <element name="Marvelous Marble (Full Heal)" type="Magic Item" source="Scriptures of the Sandsea" id="ID_RYANP_SOTS_MAGIC_ITEM_MARBLE_FULLHEAL">
+    <description>
+      <p>This marble glints with a slight pink hue. You may focus this item on any creature within 60 feet of you, the Marvelous Marble then shatters, granting it's effect</p>
+      <p class="indent">This Marvelous Marble restores a creature to full health, and the creature ages by one year immediately.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="pp">10</set>
+      <set name="weight" lb="15">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+</elements>

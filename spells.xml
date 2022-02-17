@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Champion's Fate" type="Spell" source="Scriptures of the Sandsea" id="ID_SOTS_SPELL_CHAMPIONS_FATE">
+    <supports>Paladin, Sorcerer, Cleric, Wizard</supports>
+    <description>
+      <p>This spell wraps a creature of your choice within range with the spirits of great martial warriors, magical masters and champions of old that aid in their fight.</p>
+      <p class="indent">Choose a creature you can see within range, it gains the following benefits:</p>
+      <p class="indent">It gains a critical hit on rolls of the d20 one lower than it would normally.</p>
+      <p class="indent">The creature treats rolls on the d20 as a critical hit for rolls one lower than it would otherwise.</p>
+      <p class="indent">The creature gains advantage on all rolls to determine the strengths, weaknesses or vulnerabilities of a creature it is fighting.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 4th level or higher, The creature gains a critical hit on rolls two lower than normal, at 6th level this bonus becomes three lower, at 8th level four lower. 
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">15 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Chaos Outburst" type="Spell" source="Scriptures of the Sandsea" id="ID_SOTS_SPELL_CHAOS_OUTBURST">
+    <supports>Sorcerer, Wizard, Artificer, Warlock</supports>
+    <description>
+      <p>This spell causes an eruption of pure chaos to envelop a 30 foot radius around you, causing each creature to make a charisma saving throw or roll immediately on the wild magic table.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 3rd level or higher, The radius of the spell increases by 30 feet for each level.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Ensorcelling Tale" type="Spell" source="Scriptures of the Sandsea" id="ID_SOTS_SPELL_ENSORCELLING_TALE">
+    <supports>Bard, Paladin, Cleric</supports>
+    <description>
+      <p>You recite a story of war, destruction, hope, revenge and uplifting success. All creatures you choose that can hear you within range are filled with the power of your tale, gaining the following benefits for the next hour:</p>
+      <p class="indent"> +2 to their armour class. </p>
+      <p class="indent"> Gain 1d4 temporary hit points at the begininning of their turn. </p>
+      <p class="indent"> Add your charisma modifier to any saving throw or attack roll they make. </p>
+      <p class="indent"> Add your charisma modifier to any damage they deal. </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 minute</set>
+      <set name="duration">1 hour</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Redirect Spell" type="Spell" source="Scriptures of the Sandsea" id="ID_SOTS_SPELL_REDIRECT_SPELL">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+      <p>Reaction: When you see a creature within 60 feet of you casting a spell You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 2nd level or lower, its spell is altered. If it is casting a spell of 3rd level or higher, Make a contested arcana check against the caster of the spell. If you equal or beat their check, you can shift the spell by up to 10 feet. The target and spell must still be valid, and the type of target must remain the same.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 4th level or higher, you can redirect a spell automatically if its level is less than or equal to the level of the spell slot you used.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Reverse Causality" type="Spell" source="Scriptures of the Sandsea" id="ID_SOTS_SPELL_REVERSE_CAUSALITY">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+      <p>Reaction: When you see a creature within 60 feet of you succeed in causing a harmful effect, such as casting a spell or attacking another creature. The creature must succeed on a charisma saving throw or you reverse causality, causing the harmful effect to target the creature instead.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>
